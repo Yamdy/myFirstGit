@@ -1,7 +1,7 @@
-devServer : {
-  proxy : {
+{
+  {
    '/index' ; {
-    target : 'http://localhost/index',
+    'http://localhost/index',
     // ws : true,
     changeOrigin ; true,
     pathRewrite ; {
